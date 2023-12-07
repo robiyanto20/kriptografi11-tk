@@ -1,4 +1,4 @@
-Tentu, berikut adalah sebuah README yang menjelaskan kode steganografi menggunakan LSB (Least Significant Bit) dalam bahasa Indonesia:
+
 
 ---
 
