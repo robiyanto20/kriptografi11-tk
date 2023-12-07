@@ -24,7 +24,6 @@ Pastikan untuk mengganti nama gambar, memasukkan data yang ingin disembunyikan, 
 
 ---
 
-Untuk membuat README yang bagus untuk kode tersebut di GitHub, ada beberapa poin yang perlu dijelaskan:
 
 ---
 
