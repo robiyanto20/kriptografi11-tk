@@ -87,4 +87,3 @@ MySecretKey123
 
 ---
 
-Tentu saja, Anda bisa menyesuaikan README ini dengan informasi tambahan yang mungkin relevan untuk penggunaan atau penjelasan lebih lanjut.
