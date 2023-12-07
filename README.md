@@ -1,25 +1,23 @@
-Steganografi dengan Metode LSB (Least Significant Bit)
-Kode ini merupakan contoh implementasi steganografi menggunakan metode LSB (Least Significant Bit) dengan menggunakan Python dan pustaka Stegano.
+Tentu, berikut adalah sebuah README yang menjelaskan kode steganografi menggunakan LSB (Least Significant Bit) dalam bahasa Indonesia:
 
-Deskripsi
-Kode ini digunakan untuk menyembunyikan pesan teks di dalam gambar dengan memanfaatkan metode LSB. LSB merupakan teknik yang memanfaatkan bit terkecil (bit paling tidak signifikan) dari setiap byte dalam data gambar untuk menyimpan informasi tambahan tanpa secara signifikan mengubah tampilan visual gambar.
+---
 
-Langkah-langkah yang Dilakukan:
-Persiapan Pesan Teks
-Pesan teks yang akan disembunyikan dapat diubah pada bagian data_to_hide = "ROBIYANTO 312210098.". Silakan ganti bagian ini dengan pesan teks yang diinginkan.
+# Steganografi Gambar dengan LSB (Least Significant Bit)
 
-Menyembunyikan Pesan Teks
-Menggunakan metode LSB dari pustaka Stegano, pesan teks akan disisipkan ke dalam gambar yang telah ditentukan (gambar.png) pada bagian secret = lsb.hide("gambar.png", data_to_hide).
+Kode ini adalah contoh sederhana dari penggunaan steganografi menggunakan metode LSB pada gambar. LSB memungkinkan kita untuk menyembunyikan data ke dalam gambar tanpa mengubah penampilannya secara signifikan.
 
-Menyimpan Gambar Hasil Steganografi
-Gambar hasil penyisipan pesan disimpan dengan nama gambar2.png menggunakan perintah secret.save("gambar2.png").
+## Cara Menggunakan
 
-Mengungkapkan Pesan Tersembunyi
-Proses pengungkapan pesan tersembunyi dilakukan dengan membaca gambar yang telah dimodifikasi sebelumnya menggunakan perintah revealed_data = lsb.reveal("gambar2.png"). Jika berhasil, pesan teks tersembunyi akan ditampilkan.
+### Langkah 1: Menyembunyikan Data
 
-Penggunaan
-Pastikan Anda telah menginstal pustaka Stegano dengan perintah pip install stegano.
+1. Ganti nilai `data_to_hide` dengan data yang ingin Anda sembunyikan dalam gambar.
+2. Pastikan gambar yang ingin Anda gunakan untuk menyembunyikan data memiliki nama dan path yang sesuai di dalam kode (`lsb.hide("gambar.png", data_to_hide)`). Pastikan juga gambar sudah ada di direktori yang sama dengan kode.
+3. Jalankan kode.
+4. Gambar hasil steganografi akan disimpan dengan nama `"gambar2.png"` di direktori yang sama.
 
-Ubah pesan teks yang ingin Anda sembunyikan pada bagian data_to_hide.
+### Langkah 2: Mengungkap Data Tersembunyi
 
-Jalankan kode ini di lingkungan Python.
+1. Gunakan gambar `"gambar2.png"` yang telah disimpan untuk mengungkap data tersembunyi.
+2. Jalankan kode dan periksa output yang akan menampilkan data yang berhasil diungkapkan.
+
+Pastikan untuk mengganti nama gambar, memasukkan data yang ingin disembunyikan, dan memeriksa hasilnya sesuai kebutuhan Anda.
